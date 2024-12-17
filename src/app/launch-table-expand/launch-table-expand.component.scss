@@ -1,0 +1,36 @@
+th.mat-header-cell {
+  color: red;
+  background-color: black;
+}
+.title {
+    color:  rgba(8, 44, 204, 0.747);
+    text-align: center;
+}
+table {
+  width: 100%;
+}
+
+tr.detail-row {
+  height: 0;
+}
+
+tr.launch-row:not(.expanded-row):hover {
+  background: #e8f1fa;
+}
+
+tr.launch-row:not(.expanded-row):active {
+  background: #e8f1fa;
+}
+
+.launch-row td {
+  border-bottom-width: 0;
+}
+
+.launch-detail {
+  overflow: hidden;
+  display: flex;
+}
+
+.launch-links {
+  padding: 16px;
+}
